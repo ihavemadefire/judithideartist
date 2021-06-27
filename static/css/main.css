@@ -1,0 +1,55 @@
+.titlename {
+    font-family: 'Petit Formal Script', serif;
+    font-size: 56px;
+    font-weight:bold;
+}
+.brandlogo 
+{
+    font-family: 'Petit Formal Script', serif;
+    font-size: 25px;
+}
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.titlesub {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px
+}
+.footertext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.titleofseries {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+.titleofwork {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.hoaxjumbo{
+    background-image: url(../../img/headerbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+.dreamjumbo{
+    background-image: url(../../img/Dreamscape2background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+.covidjumbo{
+    background-image: url(../../img/Covid1cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}

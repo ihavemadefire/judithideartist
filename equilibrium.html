@@ -9,54 +9,12 @@
         href="https://fonts.googleapis.com/css?family=Petit Formal Script">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open Sans">
-    <style>
-
-        #titlename {
-            font-family: 'Petit Formal Script', serif;
-            font-size: 56px;
-            font-weight:bold;
-        }
-        #brandlogo 
-        {
-            font-family: 'Open Sans', serif;
-            font-size: 25px;
-        }
-        #navlink {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 20px;
-        }
-        #titlesub {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 24px
-        }
-        #footertext {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 12px;
-        }
-        #titleofseries {
-            font-family: 'Open Sans', sans-serif;
-            text-align: center;
-            font-size: 4vw;
-        }
-        #titleofwork {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 20px;
-
-        }
-        #hoaxjumbo{
-            background-image: url(img/Dreamscape2background.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 40px;
-        }
-    </style>
+        <link rel="stylesheet" href="./static/css/main.css">
 </head>
 <body>
     <div class="container mt-5">
         <nav class="navbar mw-100 navbar-expand-sm navbar-light bg-light border">
-            <a class="navbar-brand" id="brandlogo" href="http://www.judithideartist.com/index.html"><img src="img/dragonflylogo.png" alt=""></a>
+            <a class="navbar-brand brandlogo" href="http://www.judithideartist.com/index.html"><img src="img/dragonflylogo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,8 +43,8 @@
                 </ul>
             </div>
         </nav>
-        <div id="hoaxjumbo" class="jumbotron mt-5">
-            <h1 id="titleofseries" class="bg-dark w-60 mx-3 px-2 text-light border border-round d-inline-flex">DREAMSCAPES</h1>
+        <div class="dreamjumbo jumbotron mt-5">
+            <h1 class="titleofseries bg-dark w-60 mx-3 px-2 text-light border border-round d-inline-flex">DREAMSCAPES</h1>
         </div>
         <div class="row my-5 align-items-center">
             <div class="col-sm-6">
@@ -198,8 +156,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col py-2 text-right align-self-end">
-                        <h5 id="footertext" class="mt-2">Jacob Ide</h5>
-                        <p id="footertext">Copyright &copy;<span id="year"></span></p>
+                        <h5 class="footertext mt-2">Jacob Ide</h5>
+                        <p class="footertext">Copyright &copy;<span id="year"></span></p>
                     </div>
                 </div>
             </div>
