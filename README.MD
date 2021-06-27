@@ -6,8 +6,6 @@
 
 View site at [JudithIdeArtist.com](JudithIdeArtist.com)
 
-**HTML based prtfolio project**
-
 <img src='https://github.com/ihavemadefire/judithideartist/blob/master/main_screen_judith.png' height=500>
 
 This is a portfolio website for local artist (and my mom) Judith Ide. It uses HTML and CSS/Bootstrap. On the main page there is an image carousell. Each series page contains a gallery of all the paintings within a particular series. 
